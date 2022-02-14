@@ -9,7 +9,13 @@
 #returnal-hero-banner-logo{
     width: 100%;
 }
-.jumbotron-bg{
+
+.row.jumbotron{
+    padding-top: 250px; 
+    padding-bottom: 100px;
+}
+
+#bg-1{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
@@ -17,10 +23,17 @@
     padding-bottom: 100px;
 }
 
-.jumbotron .btn{
-    background-color: rgb(191, 72, 37);
+#bg-2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-.jumbotron .thumb{
-    border-radius: 25px;
+
+.ms_btn-red{
+    background-color: rgb(191, 72, 37) !important; 
+}
+
+.ms_rounded{
+    border-radius: 20px;
 }
