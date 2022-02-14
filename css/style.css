@@ -1,8 +1,26 @@
-.nav-top{
-    background-color: black;
+#lens{
+    height: 25px;
 }
 
+#sony_logo{
+    width: 75px;
+}
 
-.nav-bottom__lens{
-    height: 25px;
+#returnal-hero-banner-logo{
+    width: 100%;
+}
+.jumbotron-bg{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 250px; 
+    padding-bottom: 100px;
+}
+
+.jumbotron .btn{
+    background-color: rgb(191, 72, 37);
+}
+
+.jumbotron .thumb{
+    border-radius: 25px;
 }
