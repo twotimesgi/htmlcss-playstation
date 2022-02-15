@@ -66,3 +66,16 @@
 .ms_rounded{
     border-radius: 20px;
 }
+
+.dropdown-toggle{
+    position: relative !important;
+}
+.dropdown-toggle::after {
+    content: url(../img/chevron-down-solid-hover.svg) !important;
+    color: black;
+    border: 0 !important;
+    width: 10px;
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
