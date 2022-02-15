@@ -15,6 +15,10 @@
     padding-bottom: 100px;
 }
 
+.ms_mt-100px{
+    margin-top: 100px;
+}
+
 #bg-1{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -29,6 +33,31 @@
     background-size: cover;
 }
 
+#bg-3{
+    background-color: rgb(185, 185, 185);
+}
+
+
+#bg-4{
+    background-color: rgb(17, 32, 80);
+}
+
+#bg-5{
+    background-color: rgb(22, 69, 150);
+}
+
+#ps-plus-logo{
+    width: 80%;
+    max-width: 300px;
+}
+
+#language-globe{
+    height: 15px;
+}
+
+#sie-logo{
+    width: 150px;
+}
 
 .ms_btn-red{
     background-color: rgb(191, 72, 37) !important; 
