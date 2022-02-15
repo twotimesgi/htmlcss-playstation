@@ -2,13 +2,8 @@
     width: 75px;
 }
 
-.ms_returnal-hero-banner-logo{
-    width: 100%;
-}
-
 .row.jumbotron{
     padding-top: 250px; 
-    padding-bottom: 100px;
 }
 
 .ms_mt-100px{
@@ -19,8 +14,6 @@
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
-    padding-top: 250px; 
-    padding-bottom: 100px;
 }
 
 .ms_bg-2{
