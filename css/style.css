@@ -104,3 +104,11 @@ opacity: 1;
                  0 10px 17px 16px rgba(0, 0, 0, 0.2);
     transform: translateY(-10%);
 }
+
+.scale-on-hover{
+    transition: transform 0.2s ease;
+}
+
+.scale-on-hover:hover{
+    transform: scale(1.05);
+}
