@@ -2,7 +2,7 @@
     width: 75px;
 }
 
-.row.jumbotron{
+#jumbotron .row:first-child{
     padding-top: 300px; 
 }
 
@@ -78,61 +78,29 @@
 .ms_ps5-item{
     opacity: 0.6;
 }
-
-.ms_ps5-item--active, .ms_ps5-item:hover {
-border-bottom: 2px solid rgb(49, 93, 203);
-opacity: 1;
-}
  
 .ms_card{
     transition: transform 0.1s ease-in, box-shadow 0.1s ease-in;
 }
 
-.ms_card:hover:not(.ms_card--active){
-    transform: translateY(-10%);
-    box-shadow: 0 10px 7px 6px rgba(0, 0, 0, 0.2);
-}
 
 .ms_card--active{
     box-shadow:  0 0 0 4px white,
     0 0 0 6px rgb(0, 38, 206);
 }
 
-.ms_card--active:hover{
-    box-shadow:  0 0 0 4px white,
-                 0 0 0 6px rgb(49, 93, 203),
-                 0 10px 17px 16px rgba(0, 0, 0, 0.2);
-    transform: translateY(-10%);
-}
-
 .scale-on-hover{
     transition: transform 0.2s ease;
 }
-
-.scale-on-hover:hover{
-    transform: scale(1.05);
-} 
 
 .dropdown-item{
     border-radius: 15px !important; 
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
-    background-color: #ffffff !important; 
-    box-shadow: 0px 0px 7px 6px rgba(0, 0, 0, 0.2);
-}
-
-.nav-link:focus{
-    outline-color: transparent !important;
-} 
 ul.list-inline .list-inline-item a{
     color: black;
     text-decoration: none;
 }
-
-ul.list-inline .list-inline-item a:hover{
-    color:rgb(49, 93, 203) !important;
-} 
 
 ul.list-inline:not(.ms_icon-list) .list-inline-item::before{
     content: "\2022";
@@ -142,4 +110,64 @@ ul.list-inline:not(.ms_icon-list) .list-inline-item::before{
     margin-right: 5px;
 }
 
+@media (hover: hover) {
+    :focus {
+        outline: none;
+    }
 
+.ms_ps5-item--active, .ms_ps5-item:hover {
+    border-bottom: 2px solid rgb(49, 93, 203);
+    opacity: 1;
+    }
+
+    ul.list-inline .list-inline-item a:hover{
+     color:rgb(49, 93, 203) !important;
+    } 
+
+    .dropdown-item:hover {
+    background-color: #ffffff !important; 
+    box-shadow: 0px 0px 7px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .scale-on-hover:hover{
+        transform: scale(1.05);
+    }
+
+    .ms_card--active:hover{
+    box-shadow:  0 0 0 4px white,
+                 0 0 0 6px rgb(49, 93, 203),
+                 0 10px 17px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10%);
+    }
+
+    .ms_card:hover:not(.ms_card--active){
+    transform: translateY(-10%);
+    box-shadow: 0 10px 7px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .ms_btn-red:hover{
+        box-shadow: inset 0px 0px 0px 3px black;
+        background-color: rgb(153, 52, 21);
+        border-color: rgb(191, 72, 37);
+    }
+
+    .btn-dark:hover{
+        box-shadow: inset 0px 0px 0px 3px white !important;
+        border-color: rgb(0, 0, 0);
+    }
+ 
+    .btn-primary:hover{
+        box-shadow: inset 0px 0px 0px 3px white !important;
+        border-color: rgb(50, 69, 208);
+    }
+
+    #banner-ps-plus .btn.bg-light:hover{
+        box-shadow: inset 0px 0px 0px 3px rgb(187, 187, 187) !important;
+        border-color: rgb(224, 224, 224); 
+    }
+
+    #banner-ps-now .btn.bg-light:hover{
+        box-shadow: inset 0px 0px 0px 3px rgb(49, 93, 203) !important;
+        border-color: rgb(224, 224, 224); 
+    }
+}

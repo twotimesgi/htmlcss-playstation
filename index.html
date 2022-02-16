@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header class="fixed-top">
+    <header id="header"class="fixed-top">
         <div class="nav-top bg-black text-end p-2">
             <a href="https://www.sony.it"><img class="ms_sony-logo" alt="logo sony" src="img/sony_logo.svg" /></a>
         </div>
@@ -331,7 +331,7 @@
 
                             </li>
                             <li>
-                                <a href="#" class="btn btn-dark rounded-pill ms_btn-hover-effect"><span class="btn-dark rounded-pill ms_btn-hover-effect">Accedi</span></a>
+                                <a href="#" class="btn btn-dark rounded-pill">Accedi</a>
                             </li>
                             <li>
                                 <button class="btn btn-white ms_btn-src"><img alt="icona cerca"
@@ -344,9 +344,9 @@
         </div>
     </header>
     <main>
-        <section class="ms_mt-100px jumbotron">
+        <section id="jumbotron" class="ms_mt-100px">
             <div class="container-fluid">
-                <div class="row jumbotron ms_bg-1 pb-5">
+                <div class="row ms_bg-1 pb-5">
                     <div class="col-md-5 col-sm-8 col-11 ps-5 text-light">
                         <img class="w-100" alt="banner returnal hero"
                             src="img/returnal-hero-banner-logo.png">
@@ -356,7 +356,7 @@
                         <a href="#" class="btn ms_btn-red rounded-pill text-white ms_btn-hover-effect">Acquista ora</a>
                     </div>
                 </div>
-                <div class="row p-5 gy-4 ">
+                <div class="row pt-5 px-1 px-md-4 gy-4 ">
                     <div class="col-xxl-2 col-sm-4 col-6">
                         <a href="#">
                             <img class="ms_card 
@@ -397,7 +397,7 @@
                 </div>
             </div>
         </section>
-        <section class="PS5">
+        <section id="PS5">
             <div class="container-fluid">
                 <div class="row mt-5 p-1">
                     <div class="col text-center">
@@ -434,7 +434,7 @@
                 </div>
             </div>
         </section>
-        <section class="banner">
+        <section id="banner-it-takes-two">
             <div class="container-fluid">
                 <div class="row ms_bg-2 py-5">
                     <div class="col-md-5 col-sm-8 col-11 ps-5 text-light">
@@ -501,7 +501,7 @@
                 </div>
             </div>
         </section>
-        <section class="PS4">
+        <section id="PS4">
             <div class="container-fluid">
                 <div class="row mt-5 p-5 justify-content-center">
                     <div class="col-md-5 col-12 text-center">
@@ -515,31 +515,31 @@
                         <img class="w-100" alt="playstation slim" src="img/ps4-slim-homepage-image-block.jpg">
                         <h3>PlayStation 4</h3>
                         <p>Giochi incredibili live su PS4, con 1TB di spazio di archiviazione.</p>
-                        <a href="#" class="btn btn-primary rounded-pill  mb-5 ms_btn-hover-effect">Scopri di più</a>
+                        <a href="#" class="btn btn-primary rounded-pill  mb-5">Scopri di più</a>
                     </div>
                     <div class="col-md-4 col-12">
                         <img class="w-100" alt="playstation vr" src="img/double11-202010-tw-psvr.jpg">
                         <h3>PlayStation VR</h3>
                         <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                        <a href="#" class="btn btn-primary rounded-pill mb-5 ms_btn-hover-effect">Scopri di più</a>
+                        <a href="#" class="btn btn-primary rounded-pill mb-5">Scopri di più</a>
                     </div>
                     <div class="col-md-4 col-12">
                         <img class="w-100" alt="playstation joypad" src="img/dualshock-4-listing-thumb.jpg">
                         <h3>Accessori</h3>
                         <p>Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
-                        <a href="#" class="btn btn-primary rounded-pill mb-5 ms_btn-hover-effect">Scopri di più</a>
+                        <a href="#" class="btn btn-primary rounded-pill mb-5">Scopri di più</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="banner ms_bg-3">
+        <section id="banner-ps-plus" class="ms_bg-3">
             <div class="container-fluid">
                 <div class="row py-5 py-md-0 align-content-start align-items-center">
                     <div class="col-12 ps-5 col-md-6">
                         <img class="mb-4 w-100 banner-logo" alt="logo playstation plus" src="img/ps-plus-logo.png">
                         <p class="mb-4">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online,
                             giochi mensili, sconti esclusivi e altro ancora.</p>
-                        <a href="#" class="btn rounded-pill text-primary bg-light opacity-75 ms_btn-hover-effect">Esplora Playstation
+                        <a href="#" class="btn rounded-pill text-primary bg-light opacity-75">Esplora Playstation
                             Plus</a>
                     </div>
                     <div class="col-6 d-none d-md-block">
@@ -548,7 +548,7 @@
                 </div>
             </div>
         </section>
-        <section class="deals">
+        <section id="deals">
             <div class="container-fluid">
                 <div class="row mt-5 p-4 justify-content-center">
                     <div class="col-md-5 col-12 text-center">
@@ -570,7 +570,7 @@
                 </div>
             </div>
         </section>
-        <section class="banner ms_bg-4">
+        <section id="banner-ps-now" class="ms_bg-4">
             <div class="container-fluid">
                 <div class="row py-5 py-md-0 align-content-start align-items-center">
                     <div class="col-12 ps-5 col-md-6">
@@ -587,8 +587,8 @@
         </section>
         <section class="social-links pb-5 ">
             <div class="container-fluid">
-                <div class="container-lg">
-                    <div class="row gy-4 p-5">
+                <div class="container-md">
+                    <div class="row gy-4 pb-5">
                         <div class="col-12 text-center">
                             <h2 class="m-5">Seguici sui Social</h2>
                         </div>
