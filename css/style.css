@@ -61,7 +61,6 @@
 	font-weight: 900;
     content: "\f078";
     font-size: 0.8rem;
-    opacity: 0.5;
     display: inline-block;
     transition: transform 0.2s ease;
 }
@@ -100,7 +99,7 @@ opacity: 1;
 
 .ms_card--active:hover{
     box-shadow:  0 0 0 4px white,
-                 0 0 0 6px rgb(49, 93, 203);
+                 0 0 0 6px rgb(49, 93, 203),
                  0 10px 17px 16px rgba(0, 0, 0, 0.2);
     transform: translateY(-10%);
 }
