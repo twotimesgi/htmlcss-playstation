@@ -48,28 +48,40 @@
     width: 150px;
 }
 
-.ms_btn-red{
-    background-color: rgb(191, 72, 37) !important; 
-}
-
 .ms_rounded{
     border-radius: 20px;
 }
 
-.dropdown-toggle{
-    position: relative !important;
-    margin-right: 15px; 
-}
-.dropdown-toggle::after {
-    content: url(../img/chevron-down-solid-hover.svg) !important;
-    opacity: 0.5;
-    border: 0 !important;
-    width: 10px;
-    position: absolute !important;
-    top: 50% !important;
-    transform: translateY(-50%);
-}
-
 .ms_btn-src img{
     height: 1.5rem;
+}
+
+.ms_dropdown-toggle::after{
+    font-family: "Font Awesome 5 Free"; 
+	font-weight: 900;
+    content: "\f078";
+    font-size: 0.8rem;
+}
+
+.btn-dark.ms_btn-hover-effect:hover{
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+}
+
+.ms_btn-red{
+    background-color: rgb(191, 72, 37) !important; 
+}
+
+.ms_btn-red.ms_btn-hover-effect:hover{
+    box-shadow: 0 0 0 2px black,
+    0 0 0 4px rgb(191, 72, 37);
+}
+
+.ms_ps5-item{
+    opacity: 0.6;
+}
+
+.ms_ps5-item--active, .ms_ps5-item:hover {
+border-bottom: 2px solid blue;
+opacity: 1;
 }
