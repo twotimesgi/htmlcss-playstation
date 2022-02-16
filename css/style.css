@@ -112,7 +112,7 @@ ul.list-inline:not(.ms_icon-list) .list-inline-item::before{
 
 @media (hover: hover) {
     :focus {
-        outline: none;
+        outline: none !important;
     }
 
 .ms_ps5-item--active, .ms_ps5-item:hover {
