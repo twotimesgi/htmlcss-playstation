@@ -83,7 +83,6 @@
     transition: transform 0.1s ease-in, box-shadow 0.1s ease-in;
 }
 
-
 .ms_card--active{
     box-shadow:  0 0 0 4px white,
     0 0 0 6px rgb(0, 38, 206);
@@ -111,11 +110,11 @@ ul.list-inline:not(.ms_icon-list) .list-inline-item::before{
 }
 
 @media (hover: hover) {
-    :focus {
+    .nav-link:focus {
         outline: none !important;
     }
 
-.ms_ps5-item--active, .ms_ps5-item:hover {
+    .ms_ps5-item--active, .ms_ps5-item:hover {
     border-bottom: 2px solid rgb(49, 93, 203);
     opacity: 1;
     }
