@@ -63,18 +63,8 @@
     font-size: 0.8rem;
 }
 
-.btn-dark.ms_btn-hover-effect:hover{
-    box-shadow: 0 0 0 2px white,
-                0 0 0 4px black;
-}
-
 .ms_btn-red{
     background-color: rgb(191, 72, 37) !important; 
-}
-
-.ms_btn-red.ms_btn-hover-effect:hover{
-    box-shadow: 0 0 0 2px black,
-    0 0 0 4px rgb(191, 72, 37);
 }
 
 .ms_ps5-item{
@@ -82,6 +72,27 @@
 }
 
 .ms_ps5-item--active, .ms_ps5-item:hover {
-border-bottom: 2px solid blue;
+border-bottom: 2px solid rgb(13, 57, 255);
 opacity: 1;
+}
+ 
+.ms_card{
+    transition: transform 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.ms_card:hover:not(.ms_card--active){
+    transform: translateY(-10%);
+    box-shadow: 0 10px 7px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ms_card--active{
+    box-shadow:  0 0 0 4px white,
+    0 0 0 6px rgb(0, 38, 206);
+}
+
+.ms_card--active:hover{
+    box-shadow:  0 0 0 4px white,
+                 0 0 0 6px rgb(0, 38, 206),
+                 0 10px 17px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10%);
 }
