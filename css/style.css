@@ -3,7 +3,7 @@
 }
 
 .row.jumbotron{
-    padding-top: 250px; 
+    padding-top: 300px; 
 }
 
 .ms_mt-100px{
@@ -11,13 +11,14 @@
 }
 
 .ms_bg-1{
-    background-image: url(../img/jumbo-bg.png);
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/jumbo-bg.png);
+    background-position-x: center;
+    background-position-y: top;
+    background-size:cover;
 }
 
 .ms_bg-2{
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),  url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -121,19 +122,24 @@ opacity: 1;
     box-shadow: 0px 0px 7px 6px rgba(0, 0, 0, 0.2);
 }
 
-.disc.list-inline-item a{
+.nav-link:focus{
+    outline-color: transparent !important;
+} 
+ul.list-inline .list-inline-item a{
     color: black;
     text-decoration: none;
 }
 
-.disc.list-inline-item a:hover{
+ul.list-inline .list-inline-item a:hover{
     color:rgb(49, 93, 203) !important;
-}
+} 
 
-.disc::before{
+ul.list-inline:not(.ms_icon-list) .list-inline-item::before{
     content: "\2022";
     color: rgb(49, 93, 203);
-    margin-right: 5px;
     font-size: 25px;
-    vertical-align: -5%; 
+    vertical-align: -5%;
+    margin-right: 5px;
 }
+
+
