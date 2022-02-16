@@ -109,10 +109,11 @@ ul.list-inline:not(.ms_icon-list) .list-inline-item::before{
     margin-right: 5px;
 }
 
+.nav-link:focus {
+    outline: none !important;
+}
+
 @media (hover: hover) {
-    .nav-link:focus {
-        outline: none !important;
-    }
 
     .ms_ps5-item--active, .ms_ps5-item:hover {
     border-bottom: 2px solid rgb(49, 93, 203);
