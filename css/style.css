@@ -117,9 +117,13 @@ ul.list-inline:not(.ms_icon-list) .list-inline-item::before{
     border-bottom: 2px solid transparent;
 }
 
+.ms_ps5-item--active{
+    border-bottom: 2px solid rgb(49, 93, 203);
+
+}
 @media (hover: hover) {
 
-    .ms_ps5-item--active, .ms_ps5-item:hover {
+    .ms_ps5-item:hover {
     border-bottom: 2px solid rgb(49, 93, 203);
     opacity: 1;
     }
